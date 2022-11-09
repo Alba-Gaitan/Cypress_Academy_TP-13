@@ -1,0 +1,41 @@
+{
+  "name": "Cypress Academy Crowdar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@bahmutov/print-env": "2.1.2",
+    "axios": "0.23.0",
+    "cypress-downloadfile": "1.2.1",
+    "dateformat": "3.0.0",
+    "nanoid": "^3.3.4",
+    "uuid": "8.3.2"
+  },
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:spec": "cypress run --spec **/*.spec.js",
+    "cy:reporter": "cypress run --reporter reporters/lippia-reporter/lippia-reporter.js",
+    "cy:local": "./node_modules/.bin/cypress run",
+    "cy:run": "cypress run --record --key a33fea55-4427-4917-8ee7-76e15344a5dd"
+  },
+  "keywords": [
+    "Cypress",
+    "Docker"
+  ],  
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/juan.trejo/academy2022-cypress.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "devDependencies": {
+    "cypress": "^9.7.0",
+    "cypress-cucumber-preprocessor": "4.3.0",
+    "cypress-mochawesome-reporter": "^3.2.3",
+    "cypress-multi-reporters": "1.5.0",
+    "mocha-junit-reporter": "2.0.2"
+  }
+}

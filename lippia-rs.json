@@ -1,0 +1,8 @@
+{
+    "project": {
+        "projectName": "Crowdar Academy 2022 Cypress",
+        "reportName": "Automation - Demo"
+    },
+    "api": "https://api.demo.lippia.io/",
+    "reportPath" : "/cypress/results/lippia-reporter.json"
+}

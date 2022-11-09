@@ -1,0 +1,6 @@
+{
+    "inpUsernameLogin": "#username",
+    "inpPassLogin": "#password",
+    "btnIniciarSesionLogin": ":nth-child(3) > .woocommerce-Button",
+    "tituloLogin" : "div#customer_login > div > h2"
+}

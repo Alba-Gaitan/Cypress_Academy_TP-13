@@ -1,0 +1,21 @@
+{
+  "baseUrl": "https://practice.automationtesting.in/",
+  "baseUrl2": "https://demoqa.com/",
+  "chromeWebSecurity": false,
+  "videos":true,
+  "reporter": "mochawesome",
+  "e2e": {
+    "experimentalStudio": true
+  },
+  "reporterOptions": {
+    "reportdir": "cypress/report/mochawesome-report",
+    "overwrite": true,
+    "html": true,
+    "json": false,
+    "timestamp": "mmddyyyy_HHMMss"
+  },
+  "testFiles": "**/*.feature",
+  "projectId": "r5456a",
+    "viewportWidth": 1920,
+    "viewportHeight": 1280
+}
